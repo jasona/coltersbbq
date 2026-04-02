@@ -425,7 +425,7 @@ export default function ColtersBBQ() {
         </section>
 
         {/* ═══ STATS BAR ═══ */}
-        <section style={{ background: 'var(--smoke)' }} className="border-t border-b" css={{ borderColor: 'var(--leather)' }}>
+        <section style={{ background: 'var(--smoke)', borderColor: 'var(--leather)' }} className="border-t border-b">
           <div className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center" style={{ borderColor: 'rgba(61,52,41,0.5)' }}>
             {[
               { value: '40+', label: 'Years Smoking', icon: Flame },
